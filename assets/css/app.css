@@ -1,0 +1,510 @@
+html {
+  scroll-behavior: smooth;
+}
+body,
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+.bg-black {
+  background-color: #182333;
+}
+.bg-black-light {
+  background-color: rgba(0, 8, 20, 0.68);
+}
+
+.text-orange {
+  color: orange;
+}
+.text-black {
+  color: black;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-gray {
+  color: gray;
+}
+.text-light-gray {
+  color: #c1c1c1;
+}
+.text-light-md {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* -- letter spacing --*/
+.letter-spacing-1 {
+  letter-spacing: 0.5px;
+}
+.letter-spacing-2 {
+  letter-spacing: 1px;
+}
+.letter-spacing-3 {
+  letter-spacing: 1.5px;
+}
+/*-- font sizes -- */
+.fs-15 {
+  font-size: 15px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+/* -- padding --*/
+.padding-x-high {
+  padding: 0 12em;
+}
+.padding-y-high {
+  padding: 5em 0;
+}
+
+/* --- conatiners ---*/
+.container-full {
+  width: 100%;
+}
+
+/* -- padding --*/
+.pad-10 {
+  padding: 10px;
+}
+.pad-5 {
+  padding: 5px;
+}
+.p-6 {
+  padding: 3.5rem !important;
+}
+.p-7 {
+  padding: 4rem 4rem 1rem 4rem !important;
+}
+.p-8 {
+  padding: 5rem !important;
+}
+/* --borders --*/
+.border-right-orange {
+  border-right: 1px solid orange;
+}
+.border-right-orange-2 {
+  border-right: 2px solid orange;
+}
+.border-right-orange-3 {
+  border-right: 3px solid orange;
+}
+.border-right-orange-4 {
+  border-right: 4px solid orange;
+}
+
+.border-left-orange-4 {
+  border-left: 4px solid orange;
+}
+/* contents */
+header {
+  position: relative;
+  width: 100%;
+}
+.top-bar a{
+  color:#fff;
+}
+.bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.email-box {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.logo {
+  font-size: 36px;
+  font-weight: 600;
+  color: orange;
+}
+/* mobile menu */
+.mobile-menubar{
+  display:none;
+}
+.mobile-menu{
+  display:none;
+  position:absolute;
+  background-color:rgba(0,0,0,1);
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:9999;
+  
+}
+.mobile-menu ul {
+  list-style-type: none;
+  margin-top: 15px;
+}
+.mobile-menu-item{
+  margin:10px;
+}
+.mobile-menu-link{
+  color:#fff;
+}
+.mobile-menu-link:hover{
+  text-decoration:none;
+  color:orange;
+}
+.menu-toggler{
+  position: relative;
+  top: 1rem;
+  right: 2rem;
+  float: right;
+  color: #fff;
+   
+}
+.menu-toggler:hover{
+  cursor: pointer;
+  color:orange;
+}
+
+
+.main-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-item {
+  display: inline-block;
+  margin: 10px 10px 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.menu-link {
+  color: #fff;
+  letter-spacing: 1px;
+}
+.menu-link:hover {
+  color: orange;
+  text-decoration: none;
+}
+.quote-btn {
+  color: orange;
+  padding: 10px;
+  border: 1px solid orange;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.quote-btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: orange;
+  border: none;
+}
+
+/*-- caption-- */
+.caption {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.caption .title {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.caption .upper-subtitle {
+  margin-left: -530px;
+  font-size: 16px;
+  padding: 10px 15px;
+  letter-spacing: 0.5px;
+}
+.caption .subtitle {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+.quote-btn-opp {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.quote-btn-opp:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: orange;
+  border: none;
+}
+
+/* -- about section --*/
+.about {
+}
+.year {
+  font-size: 4.5em;
+}
+.box-container {
+  border-left: 5px solid orange;
+  padding-left: 25px;
+  vertical-align: baseline;
+  margin: 15px 0px;
+}
+.icon-container {
+  font-size: 2.5em;
+  margin: 5px 0px;
+  border-bottom: 1px solid #80808047;
+}
+.awards-number {
+  margin-left: 15px;
+  letter-spacing: 1px;
+}
+.completed {
+  font-size: 1.2em;
+  margin-top: 0.8em;
+}
+
+/* -- services section --*/
+.section-heading,
+.section-heading-left {
+  font-size: 2em;
+}
+.section-heading:after {
+  content: "";
+  display: block;
+  background-color: orange;
+  height: 6px;
+  width: 80px;
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 15px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.section-heading-left:after {
+  content: "";
+  display: block;
+  background-color: orange;
+  height: 6px;
+  width: 80px;
+  position: relative;
+  margin-top: 10px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.services {
+  background-image: url("../img/backgrounds/bg-white.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.services .card {
+  text-align: center;
+  width:20rem;
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.services .card .fas,
+.services .card .fab {
+  font-size: 4em;
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid orange;
+  border-radius: 60px;
+  color: orange;
+}
+
+/* -- quote form -- */
+.quote-container {
+  background-color: white;
+  margin-top: -115px;
+  box-shadow: rgba(128, 128, 128, 0.4) 0.1rem 0.1rem 5px;
+}
+.quote {
+  /* background-image: url("../img/images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.quote input {
+  height: 50px !important;
+}
+.form-control {
+  background-color: rgba(234, 233, 233, 0.35) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  padding: 1rem 0.75rem !important;
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none;
+  border: 1px solid orange !important;
+  border-radius: 0 !important;
+}
+#contact-form .quote-btn {
+  width: 100%;
+}
+/* -- solutions section, just above the quote* --*/
+.solutions {
+  background-image: url("../img/images/34.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -- more services --*/
+.more-services .card {
+  width: 22.8rem!important;
+}
+.more-services .card-footer {
+  padding: 0 !important;
+}
+.more-services .card-footer:hover a {
+  border: 1px solid orange;
+  color: orange !important;
+  cursor: pointer;
+  background-color: #fff;
+}
+/* --map --*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 468px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 468px;
+  width: 100%;
+}
+/* -- footer --*/
+.footer {
+  font-size: 0.9rem;
+}
+.footer-title {
+  border-left: 4px solid orange;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22px;
+  padding: 0 15px;
+}
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2.4rem;
+}
+.footer-list-item {
+  margin: 15px 0;
+}
+.footer-list-link {
+  color: rgba(255, 255, 255, 1);
+}
+.footer-list-link:hover {
+  color: orange;
+  text-decoration: none;
+}
+.footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.workdays-list {
+  list-style-type: none;
+  padding: 0;
+}
+.workdays-list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* -- transition */
+
+ * {
+  transition: all ease-in 0.2s;
+} 
+
+
+/* media queries for responsiveness */
+
+@media only screen and (max-width: 1100px) {
+  #mainMenuBar{
+    display:none;
+  }
+  .mobile-menubar{
+    display:block;
+    
+  }
+
+}
+@media only screen and (max-width: 968px) {
+ .caption{
+   top:20%;
+ }
+ .caption .upper-subtitle{
+  margin-left:0;
+  padding:5px 10px;
+}
+.caption .title, .caption .subtitle{
+  font-size:2rem;
+}
+.caption .quote-btn-opp{
+  display:none;
+}
+
+}
+@media only screen and (max-width:600px){
+  .top-bar{
+    display:none;
+  }
+  .caption{
+    top:10%;
+  }
+  .caption .upper-subtitle{
+    margin-left:0;
+    padding:5px 10px;
+  }
+  .caption .title, .caption .subtitle{
+    font-size:1rem;
+  }
+  .caption .quote-btn-opp{
+    display:none;
+  }
+  .services .px-5{
+    
+    padding-left: unset!important;
+    padding-right: unset!important;
+    margin-right: unset!important;
+    margin-left: unset!important;
+  }
+  .padding-x-high{
+    padding:10px;
+  }
+}
